@@ -10,27 +10,22 @@ This is a movie app built with React that allows users to browse and order movie
 - Order movie tickets
 
 ## Installation
- 
- 1. Create a .env file in the root of the project with the following content:
 
+1.  Create a .env file in the root of the project with the following content:
 
- REACT_APP_MOVIE_API_KEY=YOUR_API_KEY
-
-
+REACT_APP_MOVIE_API_KEY=YOUR_API_KEY
 
 Replace YOUR_API_KEY with your TMDB API key. If you don't have one, you can obtain it by creating an account on the TMDB website and generating an API key.
 
-( The API is : 2a9b021c25bee7d8daea244797ae0917)
-
 2. Install the dependencies:
 
-    npm install
+   npm install
 
 3. Start the development server:
 
-    npm start
- 
- 4. Open your web browser and visit http://localhost:3000 to see the app.
+   npm start
+
+4. Open your web browser and visit http://localhost:3000 to see the app.
 
 ## Usage
 
@@ -44,12 +39,10 @@ Click the "Buy a Ticket" button to order movie tickets.
 
 Adjust the number of tickets and click the "Order" button to place the order.
 
-
 ## Contributing
 
 Contributions are welcome!
 If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
 
 ## License
 
