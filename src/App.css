@@ -1,10 +1,22 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #f87f2e;
+}
+body::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #f87f2e;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +47,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* Scrollable container */
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.btn {
+  --bs-btn-border-width: none !important;
+}
+a {
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none !important;
 }

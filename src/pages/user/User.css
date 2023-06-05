@@ -1,0 +1,117 @@
+.user {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.user-info {
+  margin-top: 4rem;
+}
+.section-heading {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+.section-heading {
+}
+
+.section-heading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.history-table {
+  margin-bottom: 20px;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  font-weight: bold;
+}
+.section-heading {
+  position: relative;
+  display: inline-block;
+}
+
+.section-heading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+.purchase-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.purchase-button:hover {
+  background-color: #0056b3;
+}
+
+.purchase-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+.remove-button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.remove-button:hover {
+  background-color: #b30000;
+}
+
+.remove-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+@media only screen and (max-width: 768px) {
+  .user-info {
+    margin-top: 2rem;
+  }
+  .section-heading {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+  }
+  table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .purchase-button,
+  .remove-button {
+    padding: 6px 12px;
+  }
+}

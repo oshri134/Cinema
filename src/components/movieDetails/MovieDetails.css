@@ -1,0 +1,106 @@
+/* MovieDetails.css */
+.modal-body {
+  padding: 0px !important;
+}
+.movie-details .card {
+  display: flex;
+  background-color: black; /* Added background color */
+
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card_left img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  height: 49vh;
+}
+
+.card_right {
+  color: white;
+  flex: 1 1 auto;
+  padding: 20px;
+}
+
+.card_right h1 {
+  margin-top: 0;
+}
+
+.card_right__details {
+  display: flex;
+  flex-direction: column;
+}
+
+.card_right__details__info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card_right__details__review p {
+  margin-bottom: 10px;
+}
+
+.card_right__details__button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.card_right__details__button a:hover {
+  background-color: #0056b3;
+}
+
+.card_right__rating {
+  margin-top: 20px;
+}
+
+.card_right__rating__stars label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.card_right__rating__stars label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.card_right__rating__stars input[type="radio"] {
+  display: none;
+}
+
+.card_right__rating__stars label.full {
+  background-position: 0 0;
+}
+
+.card_right__rating__stars label.half {
+  background-position: -20px 0;
+}
+
+.rating input[type="radio"]:checked ~ label {
+  background-color: #ffc107;
+}
+
+.rating input[type="radio"]:not(:checked) ~ label {
+  background-color: transparent;
+}
+
+.rating input[type="radio"]:checked ~ label {
+  background-color: #ffc107;
+}
+
+.rating label:hover {
+  background-color: #ffc107;
+}

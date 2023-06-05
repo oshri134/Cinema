@@ -1,0 +1,120 @@
+.OrderTicket {
+  background-color: #f2f2f2;
+  padding: 20px;
+
+  min-height: 100vh;
+}
+
+.OrderTicket h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.movie_order_ticket {
+  display: flex;
+}
+.movies_order_ticket_container {
+  margin-top: 20px;
+}
+
+.movies_order_ticket_container img {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.movies_order_ticket_container p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.movies_order_ticket_container input[type="number"] {
+  width: 50px;
+  padding: 5px;
+}
+
+.order-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.order-button:hover {
+  background-color: #0056b3;
+}
+
+.thank-you {
+  font-size: 18px;
+  color: green;
+  margin-top: 10px;
+}
+.order-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.order-button:hover {
+  background-color: #0056b3;
+}
+.empty-basket-message {
+  text-align: center;
+  margin-bottom: 10px;
+  color: red;
+}
+.order-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 992px) {
+  .movie_order_ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .movies_order_ticket_container {
+    margin-top: 10px;
+  }
+
+  .movies_order_ticket_container img {
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .movies_order_ticket_container p {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+
+  .movies_order_ticket_container input[type="number"] {
+    width: 40px;
+    padding: 3px;
+  }
+
+  .order-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .thank-you {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .movie_order_ticket {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 992px) {
+}

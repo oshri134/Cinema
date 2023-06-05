@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# Movie App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a movie app built with React that allows users to browse and order movie tickets.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Browse movies
+- View movie details
+- Add movies to favorites
+- Order movie tickets
 
-### `npm start`
+## Installation
+ 
+ 1. Create a .env file in the root of the project with the following content:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ REACT_APP_MOVIE_API_KEY=YOUR_API_KEY
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Replace YOUR_API_KEY with your TMDB API key. If you don't have one, you can obtain it by creating an account on the TMDB website and generating an API key.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+( The API is : 2a9b021c25bee7d8daea244797ae0917)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install the dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    npm install
 
-### `npm run eject`
+3. Start the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    npm start
+ 
+ 4. Open your web browser and visit http://localhost:3000 to see the app.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Browse movies on the homepage.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Click on a movie to view its details.
 
-## Learn More
+Click the heart icon to add a movie to your favorites.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Click the "Buy a Ticket" button to order movie tickets.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Adjust the number of tickets and click the "Order" button to place the order.
+
+
+## Contributing
+
+Contributions are welcome!
+If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+
+## License
+
+This project is licensed under the MIT License.
